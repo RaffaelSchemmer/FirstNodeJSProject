@@ -16,7 +16,7 @@ class CreateTransactionService {
     });
 
     if (!transaction) {
-      throw Error('This Account don''t have balance necessary!');
+      throw Error('This Account dont have balance necessary!');
     }
     return transaction;
   }
